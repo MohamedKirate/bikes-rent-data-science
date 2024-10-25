@@ -1,3 +1,2 @@
 # Bikes Rent Project
-we did many things in that project like EDA and Data Visiulization and we made agood model using XGBoostRegressor to
-predict pick up of bikes , the prediction based in many features like the weather like ,etc
+We did many things in that project, such as Exploratory Data Analysis (EDA) and Data Visualization, and we built a good model using the XGBoost Regressor to predict bike pickup demand. The prediction is based on various features, including weather conditions.

@@ -1,0 +1,19 @@
+preprocess:
+  input: data/processed/data.csv
+  output: data/processed/train_data.csv
+
+train:
+  data: data/processed/train_data.csv
+  model: model/xgb_model.pkl
+  n_estimators: 500
+  learning_rate: 0.05
+  max_depth: 6
+  subsample : 0.8
+
+evaluate:
+  data: data/processed/train_data.csv
+  model: model/xgb_model.pkl
+hyper_tuning:
+  data: data/processed/train_data.csv
+
+  
